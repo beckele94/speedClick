@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time {
+    text-align: center;
+    font-size: 3rem;
+    color: greenyellow;
+}
+
+.title {
+    border: 3px dashed violet;
+    color: greenyellow;
+    text-align: center;
+    width: 30%;
+    letter-spacing: 1.1rem;
+    margin: 5% auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 5px solid violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    font-weight: bold;
+}
+
+
+
+.box:hover {
+    background-color: grey !important;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
